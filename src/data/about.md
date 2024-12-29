@@ -10,6 +10,8 @@ Now, I am working on the dynamics of impression formation with a computational a
 
 # Informal CV
 
+During my undergrad, I was originally trained both in Philosophy and in Political Studies (at Sciences Po Bordeaux, courses included Economy, Sociology, Law, Political Sciences).
+
 # Alongside Academia
 
 In my spare time, I work as a freelance data scientist with extensive experience in designing and deploying scalable solutions for data-driven projects. My expertise spans machine learning, natural language processing, large language models and statistical analysis.

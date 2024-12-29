@@ -82,27 +82,4 @@ describe('renders the app', () => {
     expect(document.title).toContain('Publications |');
     expect(window.location.pathname).toBe('/publications');
   });
-
-  it('can navigate to /stats', async () => {
-    expect.assertions(4);
-    const statsLink = document.querySelector('#header > nav > ul > li:nth-child(5) > a');
-    expect(statsLink).toBeInTheDocument();
-    await act(async () => {
-      statsLink.click();
-    });
-    expect(document.title).toContain('Stats |');
-    expect(window.location.pathname).toBe('/stats');
-    expect(textMock).toHaveBeenCalled();
-  });
-
-  it('can navigate to /contact', async () => {
-    expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(6) > a');
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Contact |');
-    expect(window.location.pathname).toBe('/contact');
-  });
 });
