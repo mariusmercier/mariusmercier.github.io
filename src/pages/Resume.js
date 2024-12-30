@@ -1,29 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import Main from '../layouts/Main';
-
-// import Education from '../components/Resume/Education';
-// import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
-// import Courses from '../components/Resume/Courses';
-// import References from '../components/Resume/References';
-
-// import courses from '../data/resume/courses';
-// import degrees from '../data/resume/degrees';
-// import work from '../data/resume/work';
 import { skills, categories } from '../data/resume/skills';
 
-// NOTE: sections are displayed in order defined.
 const sections = {
-  // Education: () => <Education data={degrees} />,
-  // Experience: () => <Experience data={work} />,
   Skills: () => <Skills skills={skills} categories={categories} />,
-  // Courses: () => <Courses data={courses} />,
-  // References: () => <References />,
 };
-
-// const { PUBLIC_URL } = process.env;
 
 const Resume = () => (
   <Main
@@ -34,7 +17,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="resume">Resume</Link>
+            <Link to="/resume">Resume</Link>
           </h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
@@ -45,17 +28,20 @@ const Resume = () => (
           </div>
         </div>
       </header>
-      <p>
-        View my{' '}
-        <a
-          href="https://drive.google.com/file/d/1ZvjuPGsCjIE6aWWyjeqyqsTqgD0Ym-7_/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CV
-        </a>
-        .
-      </p>
+
+      {/* Embed your PDF CV directly from the public folder */}
+      <h3>My CV</h3>
+      <iframe
+        title="Resume"
+        src="/personal-site/resume.pdf"
+        width="100%"
+        height="900px"
+        style={{ border: 0 }}
+      >
+        {/* If someone’s browser doesn’t support iframes, they’ll see this text */}
+        Your browser does not support iframes.
+      </iframe>
+
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />
       ))}
