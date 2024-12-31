@@ -5,6 +5,20 @@ import Skills from '../components/Resume/Skills';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = {
+  CV: () => (
+    <div className="cv-section">
+      <h3 style={{ textAlign: 'center' }}>CV</h3>
+      <iframe
+        title="Resume"
+        src="https://mariusmercier.github.io/personal-site/resume.pdf"
+        width="100%"
+        height="900px"
+        style={{ border: 0 }}
+      >
+        Your browser does not support iframes.
+      </iframe>
+    </div>
+  ),
   Skills: () => <Skills skills={skills} categories={categories} />,
 };
 
@@ -28,19 +42,6 @@ const Resume = () => (
           </div>
         </div>
       </header>
-
-      {/* Embed your PDF CV directly from the public folder */}
-      <h3>My CV</h3>
-      <iframe
-        title="Resume"
-        src="https://mariusmercier.github.io/personal-site/resume.pdf"
-        width="100%"
-        height="900px"
-        style={{ border: 0 }}
-      >
-        {/* If someone’s browser doesn’t support iframes, they’ll see this text */}
-        Your browser does not support iframes.
-      </iframe>
 
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />

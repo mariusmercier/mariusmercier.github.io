@@ -30,12 +30,7 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'Deep Learning with Tensorflow + Keras',
-    competency: 5,
-    category: ['Data Science', 'Machine Learning', 'Python'],
-  },
-  {
-    title: 'Deep Learning with PyTorch',
+    title: 'Deep Learning with PyTorch, Tensorflow, Keras',
     competency: 5,
     category: ['Data Science', 'Machine Learning', 'Python'],
   },

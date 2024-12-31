@@ -13,13 +13,12 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Marius Mercier</h2>
-        <p><a href="mailto:mariusmercier1@gmail.com">mariusmercier1@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Marius. I am a French PhD Candidate in Experimental Psychology at <a href="https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">the Ecole Normale Supérieure</a>,
+      <p>Hi, I&apos;m Marius. I am a French PhD student in Social Psychology at <a href="https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)">the Ecole Normale Supérieure</a>,
         part of <a href="https://psl.eu/en/university/psl-international-rankings"> Paris Sciences & Letters (PSL) University </a>.
       </p>
       <ul className="actions">
