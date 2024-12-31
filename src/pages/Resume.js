@@ -33,7 +33,7 @@ const Resume = () => (
       <h3>My CV</h3>
       <iframe
         title="Resume"
-        src={`${process.env.PUBLIC_URL}/resume.pdf`}
+        src="https://mariusmercier.github.io/personal-site/resume.pdf"
         width="100%"
         height="900px"
         style={{ border: 0 }}
