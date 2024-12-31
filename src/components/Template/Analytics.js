@@ -7,11 +7,7 @@ const { NODE_ENV } = process.env;
 const REACT_APP_GA_TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID || 'G-F60T133RWZ';
 
 if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID) {
-  ReactGA.initialize(REACT_APP_GA_TRACKING_ID, {
-    gaOptions: {
-      debug_mode: false
-    }
-  });
+  ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
 }
 
 const Analytics = () => {
@@ -19,7 +15,7 @@ const Analytics = () => {
 
   useEffect(() => {
     if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID) {
-      ReactGA.send({ 
+      ReactGA.send({
         hitType: 'pageview',
         page: pathname,
       });
