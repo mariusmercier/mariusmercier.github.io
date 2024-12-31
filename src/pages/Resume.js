@@ -4,7 +4,6 @@ import Main from '../layouts/Main';
 import Skills from '../components/Resume/Skills';
 import { skills, categories } from '../data/resume/skills';
 
-
 const sections = {
   Skills: () => <Skills skills={skills} categories={categories} />,
 };
