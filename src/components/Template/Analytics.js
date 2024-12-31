@@ -15,8 +15,8 @@ const Analytics = () => {
     if (NODE_ENV === 'production') {
       // GA4 uses send instead of set and has a different event structure
       ReactGA.send({
-        hitType: "pageview",
-        page: pathname
+        hitType: 'pageview',
+        page: pathname,
       });
     }
   }, [pathname]);
