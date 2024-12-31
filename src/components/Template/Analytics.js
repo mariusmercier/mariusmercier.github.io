@@ -13,10 +13,11 @@ const Analytics = () => {
 
   useEffect(() => {
     if (NODE_ENV === 'production') {
-      ReactGA.set({
-        page: pathname,
+      // GA4 uses send instead of set and has a different event structure
+      ReactGA.send({
+        hitType: "pageview",
+        page: pathname
       });
-      ReactGA.pageview(pathname);
     }
   }, [pathname]);
 
