@@ -22,7 +22,7 @@ const Index = () => {
 
   return (
     <Main
-      description="Marius Mercier's personal website. Psychology Graduate Student."
+      description="Marius Mercier's personal website. PhD Student."
     >
       <article className="post markdown" id="index">
         <header>
