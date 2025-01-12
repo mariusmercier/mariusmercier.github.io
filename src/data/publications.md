@@ -5,7 +5,7 @@
   
 ## Working papers
 
-[2.] **Mercier, M.**, Garsmeur, A., Mercier, H. (Under review) The Appeal of Insight: Why Riddles and Whodunits Captivate Us
+[2.] **Mercier, M.**, Garsmeur, A., Mercier, H. (Under review) The Appeal of Insight: Why Riddles and Whodunits Captivate Us  
 [1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). The Cognitive Foundations of Fictional
 Stories.  
 
