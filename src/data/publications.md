@@ -1,6 +1,6 @@
 ## Peer-reviewed articles
 
-[1.] **Mercier, M.**, Dubourg, E., Mercier, H. (In press) Insight-seeking is consistent across domains and distinct from other forms of curiosity. *Personality and Individual Differences*
+[1.] **Mercier, M.**, Dubourg, E., Mercier, H. (2025) Insight-seeking is consistent across domains and distinct from other forms of curiosity. *Personality and Individual Differences*, 237, 113051. https://doi.org/10.1016/j.paid.2025.113051
 
   
 ## Working papers
