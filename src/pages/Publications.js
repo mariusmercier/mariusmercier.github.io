@@ -1,8 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Main from '../layouts/Main';
+
+const customComponents = {
+  PDF: () => (
+    <FontAwesomeIcon icon={faFilePdf} style={{ marginRight: '5px' }} />
+  ),
+};
+
+const customOptions = {
+  overrides: {
+    PDF: customComponents.PDF,
+  },
+};
 
 const Publications = () => {
   const [markdown, setMarkdown] = useState('');
@@ -27,7 +41,7 @@ const Publications = () => {
             <h2><Link to="/publications">Publications</Link></h2>
           </div>
         </header>
-        <Markdown>
+        <Markdown options={customOptions}>
           {markdown}
         </Markdown>
       </article>
