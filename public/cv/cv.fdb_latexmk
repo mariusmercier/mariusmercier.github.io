@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736936021.14962 "c:/Users/XxGoo/personal-site/public/cv/cv.tex" "cv.pdf" "cv" 1736936022.55762 0
-  "c:/Users/XxGoo/personal-site/public/cv/cv.tex" 1736936020.23739 10890 d819ad75630ae83c078d71d4afaa295d ""
+["pdflatex"] 1742287593.439 "c:/Users/XxGoo/personal-site/public/cv/cv.tex" "cv.pdf" "cv" 1742287596.84955 0
+  "c:/Users/XxGoo/personal-site/public/cv/cv.tex" 1742287592.81418 10803 1115fe47551d326a476142bd078e1f4d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1736169075.00347 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1736169089.42271 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1736165875.11178 1004 54797486969f23fa377b128694d548df ""
@@ -110,8 +110,8 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1736174976 5531417 731f600df6267cb2683da5a65d27208a ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1736175246 3347708 a40d1f573d49f4e5bc07dbcda19ed015 ""
   "c:/texlive/2024/texmf.cnf" 1736174944.31002 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "cv.aux" 1736936022.34927 868 b62b685735d699e03be131acb370488a "pdflatex"
-  "cv.out" 1736936022.35329 521 0f79556530e007a9ca93650385bd765f "pdflatex"
+  "cv.aux" 1742287596.38266 868 5d00e6fb635a33ecf4777bd800fe49e9 "pdflatex"
+  "cv.out" 1742287596.39552 521 0f79556530e007a9ca93650385bd765f "pdflatex"
   (generated)
   "cv.aux"
   "cv.log"
