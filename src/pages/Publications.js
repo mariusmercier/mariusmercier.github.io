@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import Main from '../layouts/Main';
 
@@ -10,11 +11,15 @@ const customComponents = {
   PDF: () => (
     <FontAwesomeIcon icon={faFilePdf} style={{ marginRight: '5px' }} />
   ),
+  GitHub: () => (
+    <FontAwesomeIcon icon={faGithub} style={{ marginRight: '5px' }} />
+  ),
 };
 
 const customOptions = {
   overrides: {
     PDF: customComponents.PDF,
+    GitHub: customComponents.GitHub,
   },
 };
 
