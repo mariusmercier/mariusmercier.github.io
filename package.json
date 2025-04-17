@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariusmercier/personal-site"
+    "url": "https://github.com/mariusmercier/mariusmercier.github.io.git"
   },
   "engines": {
     "node": ">=16.x"

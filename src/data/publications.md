@@ -6,4 +6,4 @@
   
 ## Working papers
 
-[1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). The Cognitive Foundations of Fictional Stories. ([<PDF /> Pre-print](https://osf.io/preprints/osf/me6bz))
+[1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). Explaining the Diversity and Variability of Fictions:An Evolutionary Framework ([<PDF /> Pre-print](https://osf.io/preprints/osf/me6bz))

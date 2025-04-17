@@ -10,7 +10,7 @@ const sections = {
       <h3 style={{ textAlign: 'center' }}>CV</h3>
       <iframe
         title="Resume"
-        src="https://mariusmercier.github.io/personal-site/cv/cv.pdf"
+        src="https://mariusmercier.github.io/cv/cv.pdf"
         width="100%"
         height="900px"
         style={{ border: 0 }}
