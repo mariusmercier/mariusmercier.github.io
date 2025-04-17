@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
-import Skills from '../components/Resume/Skills';
-import { skills, categories } from '../data/resume/skills';
+// import Skills from '../components/Resume/Skills';
+// import { skills, categories } from '../data/resume/skills';
 
 const sections = {
   CV: () => (
@@ -19,7 +19,7 @@ const sections = {
       </iframe>
     </div>
   ),
-  Skills: () => <Skills skills={skills} categories={categories} />,
+//  Skills: () => <Skills skills={skills} categories={categories} />,
 };
 
 const Resume = () => (
