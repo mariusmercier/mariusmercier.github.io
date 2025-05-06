@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>http://mariusmercier.github.io/</loc>
+  <loc>https://mariusmercier.github.io/</loc>
   <priority>1.0</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
-  <loc>http://mariusmercier.github.io/resume</loc>
-  <priority>0.80</priority>
+  <loc>https://mariusmercier.github.io/resume/</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
-  <loc>http://mariusmercier.github.io/publications</loc>
-  <priority>0.80</priority>
+  <loc>https://mariusmercier.github.io/publications/</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
-  <loc>http://mariusmercier.github.io/contact</loc>
-  <priority>0.80</priority>
+  <loc>https://mariusmercier.github.io/contact/</loc>
+  <priority>0.8</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
-  <loc>http://mariusmercier.github.io/about</loc>
-  <priority>0.64</priority>
+  <loc>https://mariusmercier.github.io/about/</loc>
+  <priority>0.6</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
   <loc>https://mariusmercier.github.io/files/Mercier-2025b.pdf</loc>
-  <priority>0.64</priority>
+  <priority>0.6</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
 <url>
   <loc>https://mariusmercier.github.io/files/Mercier-2025a.pdf</loc>
-  <priority>0.64</priority>
+  <priority>0.6</priority>
   <changefreq>weekly</changefreq>
   <lastmod>2025-05-06</lastmod>
 </url>
