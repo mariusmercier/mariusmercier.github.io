@@ -54,6 +54,7 @@
 @import "components/section";
 @import "components/table";
 @import "components/hamburger";
+@import "components/theme-toggle";
 @import "components/markdown";
 
 // Layout.
@@ -71,3 +72,5 @@
 @import "pages/resume";
 @import "pages/skills";
 @import "pages/stats";
+
+@import "themes/dark";

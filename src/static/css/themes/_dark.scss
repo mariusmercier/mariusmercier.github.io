@@ -1,0 +1,25 @@
+body.dark {
+  background: #121212;
+  color: #e4e4e4;
+}
+
+body.dark a {
+  color: #82aaff;
+}
+
+body.dark a:hover {
+  color: #a6c4ff !important;
+}
+
+body.dark #header,
+body.dark #sidebar > *,
+body.dark .post,
+body.dark .bm-menu {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+body.dark .button {
+  color: #e4e4e4 !important;
+  box-shadow: inset 0 0 0 1px #333;
+}
