@@ -1,4 +1,0 @@
-Sitemap: https://mariusmercier.github.io/sitemap.xml
-
-User-agent: *
-Disallow: /api
