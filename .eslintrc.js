@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: 'airbnb',
-  ignorePatterns: ['node_modules/', 'build/'],
+  ignorePatterns: ['node_modules/', 'build/', 'out/', '.next/', '*.min.js', 'src/pages_old/', 'src/layouts_old/'],
   parser: '@babel/eslint-parser',
   plugins: ['react'],
   rules: {

@@ -20,29 +20,27 @@ const sections = {
   ),
 };
 
-const ResumePage = () => {
-  return (
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2>
-            <Link href="/resume">Resume</Link>
-          </h2>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>
-            ))}
-          </div>
+const ResumePage = () => (
+  <article className="post" id="resume">
+    <header>
+      <div className="title">
+        <h2>
+          <Link href="/resume">Resume</Link>
+        </h2>
+        <div className="link-container">
+          {Object.keys(sections).map((sec) => (
+            <h4 key={sec}>
+              <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+            </h4>
+          ))}
         </div>
-      </header>
+      </div>
+    </header>
 
-      {Object.entries(sections).map(([name, Section]) => (
-        <Section key={name} />
-      ))}
-    </article>
-  );
-};
+    {Object.entries(sections).map(([name, Section]) => (
+      <Section key={name} />
+    ))}
+  </article>
+);
 
 export default ResumePage;

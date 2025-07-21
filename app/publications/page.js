@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { getMarkdownContent } from '../../lib/markdown';
+import getMarkdownContent from '../../lib/markdown';
 
 // Custom link component to add icons
 const CustomLink = ({ href, children, ...props }) => {

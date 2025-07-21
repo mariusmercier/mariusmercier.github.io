@@ -14,7 +14,7 @@
     "analyze": "npm run build && source-map-explorer out/_next/static/**/*.js",
     "build": "next build",
     "dev": "next dev",
-    "lint": "eslint \"**/*.js\"",
+    "lint": "eslint app src lib *.js --ext .js,.jsx",
     "predeploy": "npm run build",
     "start": "next start",
     "test": "npx jest"

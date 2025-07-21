@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { getMarkdownContent } from '../lib/markdown';
+import getMarkdownContent from '../lib/markdown';
 
 const HomePage = () => {
   const markdown = getMarkdownContent('about.md');
