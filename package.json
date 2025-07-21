@@ -52,6 +52,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "^7.37.2",
+    "jest-environment-jsdom": "^30.0.4",
     "raw-loader": "^4.0.2",
     "rimraf": "^6.0.1",
     "sass": "^1.81.0",
