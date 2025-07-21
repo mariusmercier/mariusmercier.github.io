@@ -4,9 +4,9 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getMarkdownContent } from '../lib/markdown';
 
-export default function HomePage() {
+const HomePage = () => {
   const markdown = getMarkdownContent('about.md');
-  
+
   const count = markdown.split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
     .filter((s) => s.length).length;
@@ -24,4 +24,6 @@ export default function HomePage() {
       </ReactMarkdown>
     </article>
   );
-}
+};
+
+export default HomePage;

@@ -1,5 +1,3 @@
-const os = require('os');
-
 module.exports = {
   env: {
     browser: true,
