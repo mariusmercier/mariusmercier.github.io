@@ -1,12 +1,16 @@
-# Welcome
+# Research
 
 Hello! I'm a PhD student in Social Psychology at the [Ecole Normale Supérieure](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)), part of [Paris Sciences & Letters (PSL) University](https://psl.eu/en/university/psl-international-rankings). Under the supervision of [Hugo Mercier](https://sites.google.com/site/hugomercier/)[^1] in the [evolution and social cognition team](https://esc.dec.ens.fr/fr), I investigate **how people form and update impressions**—especially judgments about others’ competence—when given new (and often noisy) information. I’m fascinated by the interplay between intuitive first impressions and subsequent behavioral or verbal input. Do these updates follow optimal Bayesian rules, or do initial impressions tip the scales?
 
-# My Path
+  
+Previously, I have worked on insight and its links to cultural consumption (see: [Publications](/publications)). We explored how the feeling of insight contributes to the success of riddles and whodunits, two popular products with a strong cross-cultural appeal (Mercier, Garsmeur & Mercier, 2025); and hypothesized that insight-seeking might be a personality trait distinct from other forms of curiosity (Mercier, Dubourg & Mercier, 2025).
 
-During my MPhil in Cognitive Science, I have worked on insight and its links to personality and cultural consumption, which resulted in two articles (see: [Publications](/publications)). Before that, I pursued philosophy and political studies (economics, sociology, law, political science), only to find myself frustrated with how often “human nature” assumptions were presented without empirical support. That curiosity guided me toward cognitive science, where I found out that designing and running experiments to test theoretical claims is deeply satisfying.
+# CV
 
-I’ve been fortunate to broaden my perspective at universities like Sciences Po Bordeaux, Cambridge, Princeton, and ENS-PSL, and I’m currently thrilled to be continuing my research at ENS-PSL. You can see my [complete CV here](/resume).
+I did a MPhil in Cognitive Sciences at ENS-PSL. Before that, I pursued philosophy and political studies, only to find myself frustrated with how often “human nature” assumptions were presented without empirical support. That curiosity guided me toward cognitive science, where I found out that designing and running experiments was pretty fun!
+
+  
+You can see my [complete CV here](/resume).
 
 # Alongside Academia
 
