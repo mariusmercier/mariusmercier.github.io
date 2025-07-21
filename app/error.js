@@ -1,12 +1,17 @@
 'use client';
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Error({ error, reset }) {
-  return (
-    <div className="error-page">
-      <h2>Something went wrong!</h2>
-      <button onClick={() => reset()}>Try again</button>
-    </div>
-  );
-}
+const Error = ({ reset }) => (
+  <div className="error-page">
+    <h2>Something went wrong!</h2>
+    <button type="button" onClick={() => reset()}>Try again</button>
+  </div>
+);
+
+Error.propTypes = {
+  reset: PropTypes.func.isRequired,
+};
+
+export default Error;
