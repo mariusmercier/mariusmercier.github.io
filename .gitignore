@@ -4,6 +4,11 @@ yarn.lock
 # eslint
 .eslintcache
 
+# Next.js
+.next/
+out/
+.vercel
+
 # Logs
 logs
 *.log
