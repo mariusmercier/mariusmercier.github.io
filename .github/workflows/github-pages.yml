@@ -66,6 +66,7 @@ jobs:
           NODE_ENV: production
           # Remove this line if you would like to skip using google analytics
           REACT_APP_GA_TRACKING_ID: G-F60T133RWZ
+          DISABLE_ESLINT_PLUGIN: true
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

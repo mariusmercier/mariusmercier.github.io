@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Bash(npm run build:*)",
+      "Bash(npx update-browserslist-db:*)",
+      "Bash(node:*)",
+      "Bash(nvm use:*)",
+      "Bash(dos2unix:*)",
+      "Bash(DISABLE_ESLINT_PLUGIN=true npm run build)"
+    ],
+    "deny": []
+  }
+}
