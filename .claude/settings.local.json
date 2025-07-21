@@ -7,7 +7,16 @@
       "Bash(node:*)",
       "Bash(nvm use:*)",
       "Bash(dos2unix:*)",
-      "Bash(DISABLE_ESLINT_PLUGIN=true npm run build)"
+      "Bash(DISABLE_ESLINT_PLUGIN=true npm run build)",
+      "Bash(npm run predeploy:*)",
+      "Bash(npx:*)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)"
     ],
     "deny": []
   }

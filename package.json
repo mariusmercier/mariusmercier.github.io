@@ -11,11 +11,12 @@
     "node": ">=16.x"
   },
   "scripts": {
-    "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
-    "build": "rimraf ./build && react-scripts build",
+    "analyze": "npm run build && source-map-explorer out/_next/static/**/*.js",
+    "build": "next build",
+    "dev": "next dev",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build && react-snap",
-    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "start": "next start",
     "test": "npx jest"
   },
   "dependencies": {
@@ -26,15 +27,16 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "dayjs": "^1.11.13",
     "markdown-to-jsx": "^7.7.1",
+    "next": "^15.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.3.1",
     "react-ga4": "^2.1.0",
     "react-helmet-async": "^2.0.5",
+    "react-markdown": "^10.1.0",
     "react-pdf": "^9.2.1",
-    "react-router-dom": "^6.28.0",
-    "react-scripts": "^5.0.1"
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.9",
@@ -50,20 +52,10 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "^7.37.2",
-    "react-snap": "^1.23.0",
+    "raw-loader": "^4.0.2",
     "rimraf": "^6.0.1",
     "sass": "^1.81.0",
     "source-map-explorer": "^2.5.3"
-  },
-  "reactSnap": {
-    "port": 45679,
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ],
-    "exclude": [
-      "**/files/*.pdf"
-    ]
   },
   "browserslist": {
     "production": [

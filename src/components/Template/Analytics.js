@@ -1,5 +1,7 @@
+'use client';
+
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 import ReactGA from 'react-ga4';
 
 const { NODE_ENV } = process.env;
@@ -11,7 +13,7 @@ if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID) {
 }
 
 const Analytics = () => {
-  const { pathname } = useLocation();
+  const pathname = usePathname();
 
   useEffect(() => {
     if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID) {
