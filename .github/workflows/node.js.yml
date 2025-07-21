@@ -69,8 +69,8 @@ jobs:
           }
           retry npm run predeploy
         env:
-          NODE_ENV: development
+          NODE_ENV: production
       - name: Test
         run: npm test
         env:
-          NODE_ENV: development
+          NODE_ENV: production
