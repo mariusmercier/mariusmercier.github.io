@@ -1,12 +1,27 @@
 # Personal Website
 
-Welcome to my [personal website](https://mldangelo.com)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) React-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
+Welcome to my [personal website](https://mldangelo.com)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) Next.js-based static site. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
 
 ## 🚀 Features
 
-- Built with modern JavaScript, using tools and frameworks like [create-react-app](https://github.com/facebook/create-react-app), [React-Router](https://reactrouter.com/), and SCSS.
+- Built with modern JavaScript, using [Next.js 15](https://nextjs.org/) with App Router, [React 18](https://react.dev/), and SCSS.
+- Static site generation with full SEO optimization.
+- Responsive design with mobile-first approach.
 - Automated workflows via [GitHub Actions](https://github.com/features/actions).
-- And more!
+- Google Analytics 4 integration.
+- Markdown support for content management.
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 15.1.0](https://nextjs.org/) with App Router
+- **UI Library:** [React 18.3.1](https://react.dev/)
+- **Styling:** SCSS with component-based architecture
+- **Content:** Markdown support via markdown-to-jsx and react-markdown
+- **Icons:** [FontAwesome](https://fontawesome.com/)
+- **Analytics:** Google Analytics 4
+- **Testing:** [Jest](https://jestjs.io/) with React Testing Library
+- **Linting:** [ESLint](https://eslint.org/) with Airbnb configuration
+- **Deployment:** [GitHub Actions](https://github.com/features/actions) to [GitHub Pages](https://pages.github.com/)
 
 ## 🛠 Adapting this Project
 
@@ -18,7 +33,7 @@ Your contributions are warmly welcomed! If you wish to contribute, please review
 
 ## 🔧 Dependencies
 
-Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
+Ensure you have [node](https://nodejs.org/) >= v20. This project uses Node.js v20.16.0 (specified in `.nvmrc`). Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
 
 ## 🚀 Setup and Running
 
@@ -29,7 +44,7 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
    cd personal-site
    ```
 
-2. (Optional) Ensure you're on Node v16 or higher:
+2. (Optional) Ensure you're on Node v20 or higher:
 
    ```bash
    nvm install
@@ -42,10 +57,10 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
    npm install
    ```
 
-4. Start the application:
+4. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 By default, the application should be available at [http://localhost:3000/](http://localhost:3000/).
@@ -55,7 +70,7 @@ By default, the application should be available at [http://localhost:3000/](http
 ### Deploying to GitHub Pages
 
 1. Update the environment variables and Git remote URL in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
-2. Adjust the `homepage` value in `package.json` based on your hosting preferences.
+2. Configure the `basePath` and `assetPrefix` in `next.config.js` if deploying to a subdirectory.
 3. Planning on using a custom domain? Update `public/CNAME`. Otherwise, remove it.
 
 After making a commit to `main`, simply push your changes, and the deployment will be handled automatically.
@@ -68,10 +83,10 @@ For a static export without deploying to GitHub Pages:
 - Execute:
 
   ```bash
-  npm run predeploy
+  npm run build
   ```
 
-This will generate a static version in `personal-site/build/` which you can host or deploy to a CDN.
+This will generate a static version in the `out/` directory which you can host on any static hosting service or CDN.
 
 ## 🙌 Acknowledgements
 
