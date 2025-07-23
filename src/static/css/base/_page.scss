@@ -41,11 +41,11 @@ body {
 
 // Text selection styling
 ::selection {
-  background: #66800b; // Flexoki green
-  color: _palette(bg); // White/paper color for contrast
+  background: rgba(187, 220, 206, 0.3); // Exact color from stephango.com
+  color: _palette(fg-bold); // Dark text for contrast
 }
 
 ::-moz-selection {
-  background: #66800b; // Flexoki green
-  color: _palette(bg); // White/paper color for contrast
+  background: rgba(187, 220, 206, 0.3); // Exact color from stephango.com
+  color: _palette(fg-bold); // Dark text for contrast
 }
