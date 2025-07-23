@@ -38,3 +38,14 @@ body {
     }
   }
 }
+
+// Text selection styling
+::selection {
+  background: #66800b; // Flexoki green
+  color: _palette(bg); // White/paper color for contrast
+}
+
+::-moz-selection {
+  background: #66800b; // Flexoki green
+  color: _palette(bg); // White/paper color for contrast
+}

@@ -19,7 +19,9 @@
       "Bash(ls:*)",
       "Bash(npm run lint)",
       "Bash(git rm:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:stephango.com)",
+      "Bash(npm run dev:*)"
     ],
     "deny": []
   }

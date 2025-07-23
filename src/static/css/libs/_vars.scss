@@ -42,15 +42,22 @@ $font: (
   kerning-heading: 0.25em,
 );
 
-// Palette.
+// Palette - Flexoki Color Scheme
 $palette: (
-  bg: #ffffff,
-  bg-alt: #f4f4f4,
-  fg: #646464,
-  fg-bold: #3c3b3b,
-  fg-light: #aaaaaa,
-  border: rgba(160, 160, 160, 0.3),
-  border-bg: rgba(160, 160, 160, 0.075),
-  border-alt: rgba(160, 160, 160, 0.65),
-  accent: #2e59ba,
+  // Background colors
+  bg: #fffcf0,          // Paper (main background)
+  bg-alt: #f2f0e5,      // Base-50 (alternate background)
+  
+  // Text colors
+  fg: #6f6d66,          // Base-600 (main text)
+  fg-bold: #100f0f,     // Black (bold text)
+  fg-light: #9f9d96,    // Base-400 (light text)
+  
+  // Border colors
+  border: rgba(206, 205, 195, 0.3),      // Base-200 with transparency
+  border-bg: rgba(206, 205, 195, 0.075), // Base-200 with less transparency
+  border-alt: rgba(206, 205, 195, 0.65), // Base-200 with more transparency
+  
+  // Accent color
+  accent: #24837b,      // Cyan from Flexoki
 );
