@@ -13,7 +13,7 @@ const SideBar = () => {
     <section id="sidebar">
       <section id="intro">
         <Link href="/" className="logo">
-          <img src="/images/me.png" alt="" />
+          <img src="/images/me.jpg" alt="" />
         </Link>
         <header>
           <h2>Marius Mercier</h2>
