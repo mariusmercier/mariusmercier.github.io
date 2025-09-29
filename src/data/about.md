@@ -1,24 +1,20 @@
 # Research
 
-Hello! I'm a PhD student in Social Psychology at the [Ecole Normale Supérieure](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)), part of [Paris Sciences & Letters (PSL) University](https://psl.eu/en/university/psl-international-rankings). Under the supervision of [Hugo Mercier](https://sites.google.com/site/hugomercier/)[^1] in the [evolution and social cognition team](https://esc.dec.ens.fr/fr), I investigate **how people form and update impressions**—especially judgments about others’ competence—when given new (and often noisy) information. I’m fascinated by the interplay between intuitive first impressions and subsequent behavioral or verbal input. Do these updates follow optimal Bayesian rules, or do initial impressions tip the scales?
+Hello! I'm a PhD student in Social Psychology at the [Ecole Normale Supérieure](https://en.wikipedia.org/wiki/%C3%89cole_normale_sup%C3%A9rieure_(Paris)), part of [Paris Sciences & Letters (PSL) University](https://psl.eu/en/university/psl-international-rankings). Under the supervision of [Hugo Mercier](https://sites.google.com/site/hugomercier/)[^1] in the [evolution and social cognition team](https://esc.dec.ens.fr/fr), I investigate **how people form and update impressions**—especially judgments about others’ competence—when given new (and often noisy) information. I’m fascinated by the interplay between intuitive first impressions and subsequent behavioral or verbal input. Do these updates follow optimal Bayesian rules, or do initial impressions tip the scales?  
 
   
 Previously, I have worked on insight and its links to cultural consumption (see: [Publications](/publications)). We explored how the feeling of insight contributes to the success of riddles and whodunits, two popular products with a strong cross-cultural appeal (Mercier, Garsmeur & Mercier, 2025); and hypothesized that insight-seeking might be a personality trait distinct from other forms of curiosity (Mercier, Dubourg & Mercier, 2025).
 
-# CV
+# Education
 
 I did a MPhil in Cognitive Sciences at ENS-PSL. Before that, I pursued philosophy and political studies, only to find myself frustrated with how often “human nature” assumptions were presented without empirical support. That curiosity guided me toward cognitive science, where I found out that designing and running experiments was pretty fun!
 
   
 You can see my [complete CV here](/resume).
 
-# Alongside Academia
-
-Outside the lab, I work as a freelance data scientist. My expertise spans machine learning, natural language processing, large language models, and statistical analysis. I design and deploy scalable, data-driven solutions for various projects. This professional experience complements my academic work and keeps me in touch with real-world applications.
-
 ---
 
-Feel free to explore the rest of this site for more details on my current research, publications, and professional services. If you’d like to connect, [get in touch](/contact). I look forward to hearing from you!  
+Feel free to explore the rest of this site for more details on my current research and publications. Note that all my experiments are [preregistered](https://osf.io/fwuqy/); and all my code and data are [open source](https://github.com/mariusmercier). If you’d like to connect, [get in touch](/contact). I look forward to hearing from you!  
   
   
 [^1]: With whom I am not related.
