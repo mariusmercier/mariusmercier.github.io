@@ -6,5 +6,5 @@
   
 ## Working papers
 
-[2.] **Mercier, M.**, Morin, O., Mercier, H., Quillien, T. (Under Review) Who knows what? Bayesian Competence Inference guides Knowledge Attribution and Information Search https://doi.org/10.1037/aca0000773 ([<PDF /> Pre-print](https://doi.org/10.31234/osf.io/rt8ux_v1))  
-[1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). Explaining the Diversity and Variability of Fictions:An Evolutionary Framework ([<PDF /> Pre-print](https://osf.io/preprints/osf/me6bz))
+[2.] **Mercier, M.**, Morin, O., Mercier, H., Quillien, T. (Under Review) Who knows what? Bayesian Competence Inference guides Knowledge Attribution and Information Search ([<PDF /> Preprint](https://doi.org/10.31234/osf.io/rt8ux_v1))  
+[1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). Explaining the Diversity and Variability of Fictions:An Evolutionary Framework ([<PDF /> Preprint](https://osf.io/preprints/osf/me6bz))
