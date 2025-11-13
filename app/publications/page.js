@@ -8,62 +8,24 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import getMarkdownContent from '../../lib/markdown';
 
-// Custom link component to add icons
+// Custom link component that detects icon markers and renders appropriate icons
 const CustomLink = ({ href, children, ...props }) => {
-  const linkText = children?.[0];
-  let icon = null;
+  // Get the text content - children can be a string or array
+  const linkText = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
 
-  // Add PDF icon for PDF links (check both text and URL)
-  if ((typeof linkText === 'string' && (
-    linkText.trim().includes('PDF')
-    || linkText.trim().includes('ESM')
-    || linkText.trim().includes('Pre-print')
-  )) || (href && href.includes('.pdf'))) {
-    icon = <FontAwesomeIcon icon={faFilePdf} style={{ marginRight: '5px' }} />;
-  }
+  // Check if the original markdown had icon markers
+  const hasPDFMarker = linkText.includes('[PDF-ICON]');
+  const hasGitHubMarker = linkText.includes('[GITHUB-ICON]');
 
-  // Add GitHub icon for GitHub/code links
-  if (typeof linkText === 'string' && (
-    linkText.includes('Code')
-    || linkText.includes('Data')
-    || href?.includes('github.com')
-  )) {
-    icon = <FontAwesomeIcon icon={faGithub} style={{ marginRight: '5px' }} />;
-  }
+  // Clean up the markers from the displayed text
+  const cleanText = linkText.replace(/\[PDF-ICON\]\s*/g, '').replace(/\[GITHUB-ICON\]\s*/g, '');
 
   return (
     <a href={href} {...props}>
-      {icon}
-      {children}
+      {hasPDFMarker && <FontAwesomeIcon icon={faFilePdf} style={{ marginRight: '5px', width: '1em', height: '1em' }} />}
+      {hasGitHubMarker && <FontAwesomeIcon icon={faGithub} style={{ marginRight: '5px', width: '1em', height: '1em' }} />}
+      {cleanText}
     </a>
-  );
-};
-
-const PublicationsPage = () => {
-  const rawMarkdown = getMarkdownContent('publications.md');
-
-  // Simply remove the icon tags and render the markdown normally
-  const cleanedMarkdown = rawMarkdown
-    .replace(/<PDF \/>/g, '')
-    .replace(/<GitHub \/>/g, '');
-
-  return (
-    <article className="post markdown" id="publications">
-      <header>
-        <div className="title">
-          <h2><Link href="/publications">Publications</Link></h2>
-        </div>
-      </header>
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
-        components={{
-          // Custom renderer for links to add icons
-          a: CustomLink,
-        }}
-      >
-        {cleanedMarkdown}
-      </ReactMarkdown>
-    </article>
   );
 };
 
@@ -75,6 +37,29 @@ CustomLink.propTypes = {
 CustomLink.defaultProps = {
   href: '',
   children: null,
+};
+
+const PublicationsPage = () => {
+  const rawMarkdown = getMarkdownContent('publications.md');
+
+  return (
+    <article className="post markdown" id="publications">
+      <header>
+        <div className="title">
+          <h2><Link href="/publications">Publications</Link></h2>
+        </div>
+      </header>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={{
+          // Custom renderer for links to detect markers and add icons
+          a: CustomLink,
+        }}
+      >
+        {rawMarkdown}
+      </ReactMarkdown>
+    </article>
+  );
 };
 
 export default PublicationsPage;
