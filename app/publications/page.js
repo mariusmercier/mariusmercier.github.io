@@ -11,7 +11,12 @@ import getMarkdownContent from '../../lib/markdown';
 // Custom link component that detects icon markers and renders appropriate icons
 const CustomLink = ({ href, children, ...props }) => {
   // Get the text content - children can be a string or array
-  const linkText = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
+  let linkText = '';
+  if (typeof children === 'string') {
+    linkText = children;
+  } else if (Array.isArray(children)) {
+    linkText = children.join('');
+  }
 
   // Check if the original markdown had icon markers
   const hasPDFMarker = linkText.includes('[PDF-ICON]');
