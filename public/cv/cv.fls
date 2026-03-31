@@ -192,9 +192,9 @@ INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti10
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
+INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
-INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT cv.aux
 INPUT ./cv.out
