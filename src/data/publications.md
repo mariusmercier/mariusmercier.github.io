@@ -6,6 +6,12 @@
 
 [1.] **Mercier, M.**, Dubourg, E., Mercier, H. (2025) Insight-seeking is consistent across domains and distinct from other forms of curiosity. *Personality and Individual Differences*, 237, 113051. https://doi.org/10.1016/j.paid.2025.113051 ([[PDF-ICON] PDF](https://mariusmercier.github.io/files/Mercier-2025a.pdf) | [[GITHUB-ICON] Code & Data](https://github.com/mariusmercier/paper_cluster_insight))
 
+## Peer-reviewed conference proceedings
+
+[1.] **Mercier, M.**[^1], de Lanerolle, R.[^1], Morin, O., Quillien, T., Mercier, H. (2026) Inferring Arithmetic Skill from Speed and Accuracy. *Proceedings of the Annual Meeting of the Cognitive Science Society*, forthcoming
+
+[^1]: These authors contributed equally.
+
 ## Working papers
 
 [1.] Dubourg, E., Thouzeau, V., ..., **Mercier, M.**, ..., Baumard, N. (Under review). Explaining the Diversity and Variability of Fictions:An Evolutionary Framework ([[PDF-ICON] Preprint](https://osf.io/preprints/osf/me6bz))
