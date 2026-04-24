@@ -79,7 +79,7 @@ const publications = {
         { name: '…' },
         { name: 'Baumard, N.' },
       ],
-      title: 'Explaining the Diversity and Variability of Fictions: An Evolutionary Framework',
+      title: 'The Cognitive Foundations of Fictional Stories',
       venue: 'Under review',
       links: {
         preprint: 'https://osf.io/preprints/osf/me6bz',
