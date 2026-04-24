@@ -775,8 +775,7 @@ const Contact = () => {
           maxWidth: 480,
         }}
       >
-        Feel free to get in touch. Happy to hear about collaborations
-        on impression formation, competence inference, or insight.
+        Feel free to get in touch. Happy to hear about potential collaborations.
       </p>
     </>
   );
