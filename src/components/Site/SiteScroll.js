@@ -622,7 +622,7 @@ const PubRow = ({ entry, id }) => {
       <div>
         <div style={{ fontSize: 14.5, lineHeight: 1.55, marginBottom: 6 }}>
           <span style={{ color: COLORS.muted }}>
-            <AuthorsList authors={authors} />.
+            <AuthorsList authors={authors} />
           </span>{' '}
           <span style={{ color: COLORS.muted }}>({year}) </span>
           <span style={{ color: COLORS.ink }}>{title}</span>
