@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal website for Marius Mercier, a PhD student in Social Psychology. The site has been migrated from Create React App to Next.js 15.1.0 with the App Router. It's configured for static export and automatically deploys to GitHub Pages.
+This is a personal website for Marius Mercier, a PhD student in Cognitive Psychology. The site has been migrated from Create React App to Next.js 15.1.0 with the App Router. It's configured for static export and automatically deploys to GitHub Pages.
 
 ## Key Technologies
 
