@@ -2,7 +2,7 @@ PWD /Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf.cnf
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io/public/cv/cv.tex
+INPUT cv.tex
 OUTPUT cv.log
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -191,10 +191,10 @@ INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
-INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
+INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
+INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT cv.aux
 INPUT ./cv.out
@@ -207,4 +207,5 @@ INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfont
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
