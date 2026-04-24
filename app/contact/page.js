@@ -1,24 +1,14 @@
-'use client';
-
 import React from 'react';
-import Link from 'next/link';
-
-import ContactIcons from '../../src/components/Contact/ContactIcons';
+import getMarkdownContent from '../../lib/markdown';
+import getLastUpdated from '../../lib/lastUpdated';
+import SiteScroll from '../../src/components/Site/SiteScroll';
 
 const ContactPage = () => (
-  <article className="post" id="contact">
-    <header>
-      <div className="title">
-        <h2>
-          <Link href="/contact">Contact</Link>
-        </h2>
-      </div>
-    </header>
-    <div className="email-at">
-      <p> Feel free to get in touch. You can email me at: MariusMercier1@gmail.com </p>
-    </div>
-    <ContactIcons />
-  </article>
+  <SiteScroll
+    aboutMarkdown={getMarkdownContent('about.md')}
+    lastUpdated={getLastUpdated()}
+    initialAnchor="contact"
+  />
 );
 
 export default ContactPage;

@@ -21,7 +21,15 @@
       "Bash(git rm:*)",
       "Bash(git commit:*)",
       "WebFetch(domain:stephango.com)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(mkdir -p /tmp/design-file)",
+      "Read(//tmp/**)",
+      "Bash(cp /Users/mariusmercier/.claude/projects/-Users-mariusmercier-Desktop-02--Coding-04--Personal-mariusmercier-github-io/35d30529-4998-4805-bff9-51e16c58f473/tool-results/webfetch-1777022784165-vaznod.bin design.gz)",
+      "Bash(gunzip -k design.gz)",
+      "Read(//private/tmp/design-file/**)",
+      "Bash(mkdir -p extracted)",
+      "Bash(tar -xf design -C extracted)"
     ],
     "deny": []
   }
