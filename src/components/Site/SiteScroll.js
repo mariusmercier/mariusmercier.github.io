@@ -190,7 +190,8 @@ SectionHeader.propTypes = {
 const AuthorsList = ({ authors }) => (
   <>
     {authors.map((a, i) => (
-      <React.Fragment key={`${a.name}-${a.mark || ''}`}>
+      // eslint-disable-next-line react/no-array-index-key
+      <React.Fragment key={i}>
         <span style={a.bold ? { color: COLORS.ink, fontWeight: 500 } : undefined}>
           {a.name}
           {a.mark ? <sup>{a.mark}</sup> : null}
