@@ -66,6 +66,7 @@ const publications = {
       venue: 'Personality and Individual Differences, 237, 113051',
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2025a.pdf',
+        esm: 'https://ars.els-cdn.com/content/image/1-s2.0-S0191886925000133-mmc1.docx',
         code: 'https://github.com/mariusmercier/paper_cluster_insight',
         doi: 'https://doi.org/10.1016/j.paid.2025.113051',
       },
