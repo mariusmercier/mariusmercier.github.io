@@ -40,9 +40,9 @@ Use Node.js v20.16.0 (specified in .nvmrc)
 ## Architecture
 
 ### Migration Status
-The project is transitioning from Create React App to Next.js. Legacy code exists in:
-- `src/pages_old/` - Previous React Router pages
-- `src/layouts_old/` - Previous layout components
+Migrated from Create React App to Next.js. Legacy CRA code is retained but unused:
+- `src/pages_old/` - Previous React Router pages (not wired into the Next.js app)
+- `src/layouts_old/` - Previous layout components (not wired into the Next.js app)
 
 ### Core Structure (Next.js App Router)
 - **app/**: Next.js App Router pages
@@ -53,13 +53,15 @@ The project is transitioning from Create React App to Next.js. Legacy code exist
 - **src/components/**: Reusable UI components organized by feature
 - **src/data/**: Static data files for content and configuration
 - **src/static/css/**: SCSS files with structured architecture
+- **lib/**: Shared helpers (`lastUpdated.js`, `markdown.js`)
 
 ### Data Management
-- **src/data/about.md**: About page content in Markdown
-- **src/data/publications.md**: Publications content in Markdown
-- **src/data/resume/**: Resume data (skills.js, work.js, education.js, etc.)
+- **src/data/about.md**: About page content in Markdown (rendered via `markdown-to-jsx`)
+- **src/data/publications.js**: Publications data (peer-reviewed + working papers) as structured JS objects
+- **src/data/resume/**: Resume data (`skills.js`, `work.js`, `degrees.js`, `courses.js`)
 - **src/data/contact.js**: Social media links and contact information
 - **src/data/routes.js**: Navigation route definitions
+- **src/data/projects.js**, **src/data/stats/**: Data for currently disabled Projects/Stats pages
 
 ### Static Assets
 - **public/cv/**: LaTeX CV source and PDF output
@@ -114,6 +116,11 @@ Key settings in `next.config.js`:
 - Update `src/data/about.md` for bio content
 - Modify `src/data/contact.js` for social media links
 - Update `src/data/resume/` files for CV information
+- Update `src/data/publications.js` to add/edit publications (PDF, code, DOI, ESM links)
+
+### Adding a Publication PDF
+- Drop the file in `public/files/` (e.g. `Mercier-2026a.pdf`)
+- Reference it as `https://mariusmercier.github.io/files/<name>.pdf` in `publications.js` (the `public/` prefix is stripped at build time)
 
 ### Adding New Pages
 1. Create new directory in `app/` with `page.js`
