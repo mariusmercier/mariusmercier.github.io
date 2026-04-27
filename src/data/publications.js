@@ -13,7 +13,10 @@ const publications = {
       title: 'Inferring Arithmetic Skill from Speed and Accuracy',
       venue: 'Proceedings of the Annual Meeting of the Cognitive Science Society, 48',
       note: '* These authors contributed equally.',
-      links: {},
+      links: {
+        pdf: 'https://mariusmercier.github.io/files/Mercier-2026a.pdf',
+        code: 'https://github.com/mariusmercier/paper_numeric_competence/tree/cogsci-2026',
+      },
     },
     {
       n: 3,
