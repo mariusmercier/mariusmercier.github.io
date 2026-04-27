@@ -16,6 +16,7 @@ const publications = {
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026a.pdf',
         code: 'https://github.com/mariusmercier/paper_numeric_competence/tree/cogsci-2026',
+        preprint: 'https://doi.org/10.31234/osf.io/bp9uc_v1',
       },
     },
     {
