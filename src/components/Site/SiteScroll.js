@@ -12,6 +12,7 @@ import remarkGfm from 'remark-gfm';
 
 import publications from '../../data/publications';
 import contacts from '../../data/contact';
+import { event as gaEvent } from '../../../lib/gtag';
 
 const COLORS = {
   bg: '#f3efe6',
@@ -232,6 +233,11 @@ const ContactLine = ({ label, href, display }) => {
           href={href}
           target={href.startsWith('mailto:') ? undefined : '_blank'}
           rel={href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+          onClick={() => gaEvent({
+            action: href.startsWith('mailto:') ? 'email_click' : 'contact_link_click',
+            category: 'contact',
+            label,
+          })}
           style={{ color: COLORS.ink, wordBreak: 'break-word' }}
         >
           {content}
@@ -538,6 +544,11 @@ const markdownComponents = {
       <a
         href={href}
         {...(samePage ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+        onClick={samePage ? undefined : () => gaEvent({
+          action: 'outbound_click',
+          category: 'about_markdown',
+          label: href,
+        })}
         style={{
           color: COLORS.ink,
           borderBottom: `1px dotted ${COLORS.muted}`,
@@ -658,6 +669,11 @@ const PubRow = ({ entry, id }) => {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => gaEvent({
+                  action: 'publication_link_click',
+                  category: 'publication',
+                  label: `${title} — ${key}`,
+                })}
                 style={{ color: COLORS.marker, cursor: 'pointer' }}
               >
                 → {ACTION_LABELS[key] || key}
@@ -728,6 +744,11 @@ const CV = ({ isMobile }) => (
         href="/cv/cv.pdf"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => gaEvent({
+          action: 'cv_download',
+          category: 'cv',
+          label: 'cv.pdf',
+        })}
         style={{
           fontFamily: FONTS.mono,
           fontSize: 12,

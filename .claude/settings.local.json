@@ -29,7 +29,8 @@
       "Bash(gunzip -k design.gz)",
       "Read(//private/tmp/design-file/**)",
       "Bash(mkdir -p extracted)",
-      "Bash(tar -xf design -C extracted)"
+      "Bash(tar -xf design -C extracted)",
+      "WebFetch(domain:mariusmercier.github.io)"
     ],
     "deny": []
   }

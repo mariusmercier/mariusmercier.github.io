@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Script from 'next/script';
 import Providers from './providers';
+import { GA_TRACKING_ID } from '../lib/gtag';
 import '../src/static/css/main.scss';
 
 export const metadata = {
@@ -22,6 +24,19 @@ const RootLayout = ({ children }) => (
       />
     </head>
     <body>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', '${GA_TRACKING_ID}', { send_page_view: false });
+        `}
+      </Script>
       <Providers>
         {children}
       </Providers>
