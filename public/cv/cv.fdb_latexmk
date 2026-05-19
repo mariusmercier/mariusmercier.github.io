@@ -1,5 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1777032191.31751 "cv.tex" "cv.pdf" "cv" 1777032191.53887 0
+["pdflatex"] 1779177994.55666 "/Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io/public/cv/cv.tex" "cv.pdf" "cv" 1779177994.81961 0
+  "/Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io/public/cv/cv.tex" 1779177994.3837 11780 ca0d681cb454e1bf4672f8bfc0fa06af ""
+  "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm" 1136768653 2048 3777f70f4372b17e2d3fda2b5684af05 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -34,6 +36,7 @@
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb" 1215737283 186554 e8f0fa8ca05e038f257a06405232745f ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463430686 173219 54847ac27638e1e28852258f5be2fa20 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty" 1776289991 147019 9d03eb9cccaf90a7f833d5d46175f0c3 ""
@@ -101,13 +104,12 @@
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727642399 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1762376337 5006 d7e899bb5d9717c7f214e9bc0284de7b ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
-  "/Users/mariusmercier/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1776938075 175259 71b594b6fd1fa6e8b6231e8eba558424 ""
-  "/Users/mariusmercier/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1000.600pk" 1777032127.10026 14040 2015a07221a125496bcd8c55d1594e44 ""
+  "/Users/mariusmercier/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778149536 372733 634136eb1bda6d817b8a1d1188289100 ""
   "/Users/mariusmercier/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1776937614 2298152 7c899d39d8dada2500c406d5fa2f0abe ""
   "/Users/mariusmercier/Library/TinyTeX/texmf.cnf" 1776937448.67992 703 42646c8c9b7df5e643ca2eaa6bb434d7 ""
-  "cv.aux" 1777032191.51003 1044 b8b0a01c071bc34144b6a1979152ac3b "pdflatex"
-  "cv.out" 1777032191.5105 629 ac6e56c2201e5391950e0fcbeb9e5e8e "pdflatex"
-  "cv.tex" 1777032185.82138 11620 bd2317be85e94d398a203cde836bb43c ""
+  "cv.aux" 1779177994.78436 1044 0bd3bad5773d67957a9dc90bea28f1a9 "pdflatex"
+  "cv.out" 1779177994.78471 629 ac6e56c2201e5391950e0fcbeb9e5e8e "pdflatex"
+  "cv.tex" 1779177994.3837 11780 ca0d681cb454e1bf4672f8bfc0fa06af ""
   (generated)
   "cv.aux"
   "cv.log"
