@@ -30,7 +30,8 @@
       "Read(//private/tmp/design-file/**)",
       "Bash(mkdir -p extracted)",
       "Bash(tar -xf design -C extracted)",
-      "WebFetch(domain:mariusmercier.github.io)"
+      "WebFetch(domain:mariusmercier.github.io)",
+      "Bash(grep -rn \"MARIUS\\\\|\\\\\\\\$ 00\\\\|\\\\\\\\$ 01\\\\|\\\\\\\\$ 02\" --include=\"*.js\" --include=\"*.jsx\" --include=\"*.md\" --include=\"*.scss\" --include=\"*.css\" \"/Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io\")"
     ],
     "deny": []
   }

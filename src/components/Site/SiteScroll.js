@@ -155,7 +155,6 @@ const SectionHeader = ({
   id,
   n,
   title,
-  note,
 }) => (
   <div
     data-sec={id}
@@ -165,7 +164,7 @@ const SectionHeader = ({
       borderTop: `0.5px solid ${COLORS.line}`,
     }}
   >
-    <Kicker>§ {n} — {note}</Kicker>
+    <Kicker>§ {n} —</Kicker>
     <h2
       style={{
         fontFamily: FONTS.serif,
@@ -185,7 +184,6 @@ SectionHeader.propTypes = {
   id: PropTypes.string.isRequired,
   n: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  note: PropTypes.string.isRequired,
 };
 
 const AuthorsList = ({ authors }) => (
@@ -473,10 +471,9 @@ const Intro = ({ isMobile }) => (
         textWrap: 'balance',
       }}
     >
-      PhD student in social cognition, studying how impressions
-      form and update under{' '}
+      PhD student in social cognition, studying how people infer others' beliefs, skills and knowledge from{' '}
       <em style={{ color: COLORS.marker, fontStyle: 'italic' }}>
-        noisy evidence
+        limited information
       </em>.
     </h1>
     <div
@@ -490,7 +487,7 @@ const Intro = ({ isMobile }) => (
         letterSpacing: '0.04em',
       }}
     >
-      <Chip>ENS–PSL</Chip>
+      <Chip>Institut Nicod, ENS–PSL</Chip>
       <Chip>Paris</Chip>
       <Chip>Supervisor: Hugo Mercier</Chip>
     </div>
@@ -584,9 +581,9 @@ const markdownComponents = {
   ),
 };
 
-const About = ({ aboutMarkdown, wordCount }) => (
+const About = ({ aboutMarkdown }) => (
   <>
-    <SectionHeader id="about" n="01" note={`${wordCount} words`} title="About" />
+    <SectionHeader id="about" n="01" title="About" />
     <div style={{ fontSize: 15.5, lineHeight: 1.75 }}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
@@ -600,7 +597,6 @@ const About = ({ aboutMarkdown, wordCount }) => (
 
 About.propTypes = {
   aboutMarkdown: PropTypes.string.isRequired,
-  wordCount: PropTypes.number.isRequired,
 };
 
 const PubRow = ({ entry, id }) => {
@@ -707,7 +703,7 @@ PubRow.defaultProps = { id: undefined };
 
 const Publications = () => (
   <>
-    <SectionHeader id="publications" n="02" note="peer reviewed · working" title="Publications" />
+    <SectionHeader id="publications" n="02" title="Publications" />
     <Grp label="Peer-reviewed articles" />
     {publications.peerReviewed.map((p) => (
       <PubRow key={`pr-${p.n}`} id={`pub-${p.n}`} entry={p} />
@@ -721,7 +717,7 @@ const Publications = () => (
 
 const CV = ({ isMobile }) => (
   <>
-    <SectionHeader id="cv" n="03" note="pdf below" title="Curriculum Vitae" />
+    <SectionHeader id="cv" n="03" title="Curriculum Vitae" />
     <div
       style={{
         border: `0.5px solid ${COLORS.line}`,
@@ -771,7 +767,7 @@ const Contact = () => {
   const others = contacts.filter((c) => c.label !== 'Email');
   return (
     <>
-      <SectionHeader id="contact" n="04" note="preferred: email" title="Contact" />
+      <SectionHeader id="contact" n="04" title="Contact" />
       <div style={{ fontFamily: FONTS.mono, fontSize: 13, lineHeight: 1.9 }}>
         {email && (
           <ContactLine
@@ -846,15 +842,6 @@ const SiteScroll = ({ aboutMarkdown, lastUpdated, initialAnchor }) => {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const wordCount = React.useMemo(() => {
-    if (!aboutMarkdown) return 0;
-    return aboutMarkdown
-      .split(/\s+/)
-      .map((s) => s.replace(/\W/g, ''))
-      .filter((s) => s.length)
-      .length;
-  }, [aboutMarkdown]);
-
   return (
     <div
       style={{
@@ -887,7 +874,7 @@ const SiteScroll = ({ aboutMarkdown, lastUpdated, initialAnchor }) => {
         {!isMobile && <Sidebar anchor={anchor} onJump={jump} lastUpdated={lastUpdated} />}
         <div style={{ maxWidth: isMobile ? '100%' : 640, width: '100%' }}>
           <Intro isMobile={isMobile} />
-          <About aboutMarkdown={aboutMarkdown} wordCount={wordCount} />
+          <About aboutMarkdown={aboutMarkdown} />
           <Publications />
           <CV isMobile={isMobile} />
           <Contact />
