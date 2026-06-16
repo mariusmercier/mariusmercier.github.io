@@ -472,7 +472,7 @@ const Intro = ({ isMobile }) => (
       }}
     >
       PhD student in social cognition, studying how people infer others&rsquo; beliefs, skills and knowledge from{' '}
-      <em style={{ color: COLORS.marker, fontStyle: 'italic' }}>
+      <em style={{ color: COLORS.ink, fontStyle: 'normal' }}>
         limited information
       </em>.
     </h1>
