@@ -74,6 +74,17 @@ const publications = {
   ],
   workingPapers: [
     {
+      n: 2,
+      year: '2026',
+      authors: [
+        { name: 'Mercier, M.', bold: true },
+        { name: 'Baudouin, N.' },
+        { name: 'Mercier, H.' },
+      ],
+      title: 'People have an accurate folk theory of conspiracy believers',
+      venue: 'Under review',
+    },
+    {
       n: 1,
       year: '—',
       authors: [
