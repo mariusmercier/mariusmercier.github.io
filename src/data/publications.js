@@ -83,7 +83,7 @@ const publications = {
       ],
       title: 'People have an accurate folk theory of conspiracy believers',
       venue: 'Under review',
-      link: {
+      links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026b.pdf',
         preprint: 'https://doi.org/10.31234/osf.io/mp27u_v3',
       },
