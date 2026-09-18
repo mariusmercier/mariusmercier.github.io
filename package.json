@@ -17,7 +17,8 @@
     "lint": "eslint app src lib *.js --ext .js,.jsx",
     "predeploy": "npm run build",
     "start": "next start",
-    "test": "npx jest"
+    "test": "npx jest",
+    "thumbnails": "bash scripts/make-paper-thumbnails.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

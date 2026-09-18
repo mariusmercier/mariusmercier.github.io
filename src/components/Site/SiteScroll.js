@@ -13,22 +13,8 @@ import remarkGfm from 'remark-gfm';
 import publications from '../../data/publications';
 import contacts from '../../data/contact';
 import { event as gaEvent } from '../../../lib/gtag';
-
-const COLORS = {
-  bg: '#f3efe6',
-  panel: '#ebe6d8',
-  ink: '#16130e',
-  muted: '#6a6253',
-  line: '#d0c8b4',
-  accent: '#5a4a2a',
-  marker: '#a8724c',
-};
-
-const FONTS = {
-  serif: '"Source Serif 4", "Source Serif Pro", Georgia, serif',
-  body: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif',
-  mono: '"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace',
-};
+import PaperCarousel from './PaperCarousel';
+import { COLORS, FONTS } from './tokens';
 
 const SECTIONS = [
   ['top', '00', 'Index'],
@@ -98,6 +84,10 @@ const ACTION_LABELS = {
   doi: 'doi',
   preprint: 'preprint',
 };
+
+// Module scope so the carousel's memoised card list stays stable across re-renders.
+// The carousel picks and orders entries by their `selected` field.
+const ALL_PAPERS = [...publications.peerReviewed, ...publications.workingPapers];
 
 const Kicker = ({ children }) => (
   <div
@@ -704,6 +694,8 @@ PubRow.defaultProps = { id: undefined };
 const Publications = () => (
   <>
     <SectionHeader id="publications" n="02" title="Publications" />
+    <Grp label="Selected papers" />
+    <PaperCarousel papers={ALL_PAPERS} />
     <Grp label="Peer-reviewed articles" />
     {publications.peerReviewed.map((p) => (
       <PubRow key={`pr-${p.n}`} id={`pub-${p.n}`} entry={p} />
@@ -872,7 +864,8 @@ const SiteScroll = ({ aboutMarkdown, lastUpdated, initialAnchor }) => {
         }}
       >
         {!isMobile && <Sidebar anchor={anchor} onJump={jump} lastUpdated={lastUpdated} />}
-        <div style={{ maxWidth: isMobile ? '100%' : 640, width: '100%' }}>
+        {/* minWidth: 0 stops the grid column growing to fit wide content (the papers carousel). */}
+        <div style={{ maxWidth: isMobile ? '100%' : 640, width: '100%', minWidth: 0 }}>
           <Intro isMobile={isMobile} />
           <About aboutMarkdown={aboutMarkdown} />
           <Publications />

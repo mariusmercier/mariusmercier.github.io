@@ -12,6 +12,7 @@ const publications = {
       ],
       title: 'Inferring Arithmetic Skill from Speed and Accuracy',
       venue: 'Proceedings of the Annual Meeting of the Cognitive Science Society, 48',
+      selected: 2,
       note: '* Equal contribution.',
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026a.pdf',
@@ -30,6 +31,7 @@ const publications = {
       ],
       title: 'Who knows what? Bayesian Competence Inference guides Knowledge Attribution and Information Search',
       venue: 'Cognition, 273, 106533',
+      selected: 1,
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026.pdf',
         esm: 'https://ars.els-cdn.com/content/image/1-s2.0-S0010027726001009-mmc1.pdf',
@@ -47,6 +49,7 @@ const publications = {
       ],
       title: 'The Appeal of Insight: Why Riddles and Whodunits Captivate Us',
       venue: 'Psychology of Aesthetics, Creativity, and the Arts (Advance online publication)',
+      selected: 3,
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2025b.pdf',
         esm: 'https://supp.apa.org/psycarticles/supplemental/aca0000773/aca0000773_sm.pdf',
@@ -64,6 +67,7 @@ const publications = {
       ],
       title: 'Insight-seeking is consistent across domains and distinct from other forms of curiosity',
       venue: 'Personality and Individual Differences, 237, 113051',
+      selected: 4,
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2025a.pdf',
         esm: 'https://ars.els-cdn.com/content/image/1-s2.0-S0191886925000133-mmc1.docx',
@@ -83,6 +87,7 @@ const publications = {
       ],
       title: 'People have an accurate folk theory of conspiracy believers',
       venue: 'Under review',
+      selected: 5,
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026b.pdf',
         preprint: 'https://doi.org/10.31234/osf.io/mp27u_v3',
