@@ -72,5 +72,3 @@ jobs:
           NODE_ENV: production
       - name: Test
         run: npm test
-        env:
-          NODE_ENV: production
