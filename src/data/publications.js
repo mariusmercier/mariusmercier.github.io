@@ -1,6 +1,24 @@
 const publications = {
   peerReviewed: [
     {
+      n: 5,
+      year: '2026',
+      authors: [
+        { name: 'Dubourg, E.' },
+        { name: 'Thouzeau, V.' },
+        { name: '…' },
+        { name: 'Mercier, M.', bold: true },
+        { name: '…' },
+        { name: 'Baumard, N.' },
+      ],
+      title: 'Carving stories at their natural joints',
+      venue: 'Psychological Review (Advance online publication)',
+      links: {
+        doi: 'https://doi.org/10.1037/rev0000648',
+        preprint: 'https://osf.io/preprints/osf/me6bz',
+      },
+    },
+    {
       n: 4,
       year: '2026',
       authors: [
@@ -78,7 +96,7 @@ const publications = {
   ],
   workingPapers: [
     {
-      n: 2,
+      n: 1,
       year: '2026',
       authors: [
         { name: 'Mercier, M.', bold: true },
@@ -91,23 +109,6 @@ const publications = {
       links: {
         pdf: 'https://mariusmercier.github.io/files/Mercier-2026b.pdf',
         preprint: 'https://doi.org/10.31234/osf.io/mp27u_v3',
-      },
-    },
-    {
-      n: 1,
-      year: '—',
-      authors: [
-        { name: 'Dubourg, E.' },
-        { name: 'Thouzeau, V.' },
-        { name: '…' },
-        { name: 'Mercier, M.', bold: true },
-        { name: '…' },
-        { name: 'Baumard, N.' },
-      ],
-      title: 'The Cognitive Foundations of Fictional Stories',
-      venue: 'Under review',
-      links: {
-        preprint: 'https://osf.io/preprints/osf/me6bz',
       },
     },
   ],

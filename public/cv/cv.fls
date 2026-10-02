@@ -2,7 +2,7 @@ PWD /Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf.cnf
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/mariusmercier/Desktop/02. Coding/04. Personal/mariusmercier.github.io/public/cv/cv.tex
+INPUT cv.tex
 OUTPUT cv.log
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 INPUT /Users/mariusmercier/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
